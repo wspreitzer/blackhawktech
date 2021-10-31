@@ -37,7 +37,7 @@ const routes: Routes = [
   { path: 'orders', component: OrdersComponent},
   { path: 'wishlist', component: WishListComponent},
   { path: 'review', component: ReviewComponent},
-  { path: 'review/:id', component: ReviewsComponent},
+  { path: 'review/:id', component: ReviewComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'login', component: LoginComponent}
 ];
