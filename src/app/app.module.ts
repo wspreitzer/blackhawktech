@@ -13,6 +13,7 @@ import { WebHostingComponent } from './web-hosting/web-hosting.component';
 import { WebDevelopmentComponent } from './web-development/web-development.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutComponent } from './about/about.component';
+import { GearComponent } from './gear/gear.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AboutComponent } from './about/about.component';
     WebHostingComponent,
     WebDevelopmentComponent,
     ReviewsComponent,
-    AboutComponent
+    AboutComponent,
+    GearComponent
   ],
   imports: [
     BrowserModule,
