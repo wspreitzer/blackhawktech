@@ -7,6 +7,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { MicroserviceComponent } from './microservice/microservice.component';
+import { CustomerSystemComponent } from './customer-system/customer-system.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MicroserviceComponent } from './microservice/microservice.component';
     WelcomeComponent,
     MenuComponent,
     RegisterComponent,
-    MicroserviceComponent
+    MicroserviceComponent,
+    CustomerSystemComponent
   ],
   imports: [
     BrowserModule,
