@@ -20,6 +20,7 @@ import { ChatComponent } from './chat/chat.component';
 import { ProfileComponent } from './profile/profile.component';
 import { OrdersComponent } from './orders/orders.component';
 import { WishListComponent } from './wish-list/wish-list.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { WishListComponent } from './wish-list/wish-list.component';
     ChatComponent,
     ProfileComponent,
     OrdersComponent,
-    WishListComponent
+    WishListComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
