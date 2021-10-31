@@ -10,6 +10,7 @@ import { MicroserviceComponent } from './microservice/microservice.component';
 import { CustomerSystemComponent } from './customer-system/customer-system.component';
 import { SocialComponent } from './social/social.component';
 import { WebHostingComponent } from './web-hosting/web-hosting.component';
+import { WebDevelopmentComponent } from './web-development/web-development.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WebHostingComponent } from './web-hosting/web-hosting.component';
     MicroserviceComponent,
     CustomerSystemComponent,
     SocialComponent,
-    WebHostingComponent
+    WebHostingComponent,
+    WebDevelopmentComponent
   ],
   imports: [
     BrowserModule,
