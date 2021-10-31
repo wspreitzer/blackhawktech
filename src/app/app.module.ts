@@ -14,6 +14,7 @@ import { WebDevelopmentComponent } from './web-development/web-development.compo
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutComponent } from './about/about.component';
 import { GearComponent } from './gear/gear.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { GearComponent } from './gear/gear.component';
     WebDevelopmentComponent,
     ReviewsComponent,
     AboutComponent,
-    GearComponent
+    GearComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
