@@ -15,6 +15,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutComponent } from './about/about.component';
 import { GearComponent } from './gear/gear.component';
 import { FaqComponent } from './faq/faq.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FaqComponent } from './faq/faq.component';
     ReviewsComponent,
     AboutComponent,
     GearComponent,
-    FaqComponent
+    FaqComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
