@@ -18,6 +18,7 @@ import { FaqComponent } from './faq/faq.component';
 import { ContactComponent } from './contact/contact.component';
 import { ChatComponent } from './chat/chat.component';
 import { ProfileComponent } from './profile/profile.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProfileComponent } from './profile/profile.component';
     FaqComponent,
     ContactComponent,
     ChatComponent,
-    ProfileComponent
+    ProfileComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
