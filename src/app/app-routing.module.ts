@@ -20,6 +20,7 @@ import { WishListComponent } from './wish-list/wish-list.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent},
+  { path: 'welcome', component: WelcomeComponent},
   { path: 'customerSystem', component: CustomerSystemComponent},
   { path: 'microservice', component: MicroserviceComponent},
   { path: 'social', component: SocialComponent},
