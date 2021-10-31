@@ -11,6 +11,7 @@ import { CustomerSystemComponent } from './customer-system/customer-system.compo
 import { SocialComponent } from './social/social.component';
 import { WebHostingComponent } from './web-hosting/web-hosting.component';
 import { WebDevelopmentComponent } from './web-development/web-development.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { WebDevelopmentComponent } from './web-development/web-development.compo
     CustomerSystemComponent,
     SocialComponent,
     WebHostingComponent,
-    WebDevelopmentComponent
+    WebDevelopmentComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
