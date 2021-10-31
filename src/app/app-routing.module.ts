@@ -36,8 +36,7 @@ const routes: Routes = [
   { path: 'wishList', component: WishListComponent},
   { path: 'review/:id', component: ReviewsComponent},
   { path: 'register', component: RegisterComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'logout', component: LogoutComponent}
+  { path: 'login', component: LoginComponent}
 ];
 
 @NgModule({
