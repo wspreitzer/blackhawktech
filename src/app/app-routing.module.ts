@@ -11,6 +11,7 @@ import { MicroserviceComponent } from './microservice/microservice.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { ReviewComponent } from './review/review.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { SocialComponent } from './social/social.component';
 import { WebDevelopmentComponent } from './web-development/web-development.component';
@@ -34,7 +35,8 @@ const routes: Routes = [
   { path: 'chat', component: ChatComponent},
   { path: 'profile', component: ProfileComponent},
   { path: 'orders', component: OrdersComponent},
-  { path: 'wishList', component: WishListComponent},
+  { path: 'wishlist', component: WishListComponent},
+  { path: 'review', component: ReviewComponent},
   { path: 'review/:id', component: ReviewsComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'login', component: LoginComponent}
