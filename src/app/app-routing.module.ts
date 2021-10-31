@@ -7,7 +7,6 @@ import { CustomerSystemComponent } from './customer-system/customer-system.compo
 import { FaqComponent } from './faq/faq.component';
 import { GearComponent } from './gear/gear.component';
 import { LoginComponent } from './login/login.component';
-import { LogoutComponent } from './logout/logout.component';
 import { MicroserviceComponent } from './microservice/microservice.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProfileComponent } from './profile/profile.component';
