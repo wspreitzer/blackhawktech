@@ -21,6 +21,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { OrdersComponent } from './orders/orders.component';
 import { WishListComponent } from './wish-list/wish-list.component';
 import { ReviewComponent } from './review/review.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ReviewComponent } from './review/review.component';
     ProfileComponent,
     OrdersComponent,
     WishListComponent,
-    ReviewComponent
+    ReviewComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
