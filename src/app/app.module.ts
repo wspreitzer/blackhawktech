@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { MicroserviceComponent } from './microservice/microservice.component';
 import { CustomerSystemComponent } from './customer-system/customer-system.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CustomerSystemComponent } from './customer-system/customer-system.compo
     MenuComponent,
     RegisterComponent,
     MicroserviceComponent,
-    CustomerSystemComponent
+    CustomerSystemComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
