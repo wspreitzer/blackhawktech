@@ -12,6 +12,7 @@ import { SocialComponent } from './social/social.component';
 import { WebHostingComponent } from './web-hosting/web-hosting.component';
 import { WebDevelopmentComponent } from './web-development/web-development.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
     SocialComponent,
     WebHostingComponent,
     WebDevelopmentComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
