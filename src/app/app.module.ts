@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { MicroserviceComponent } from './microservice/microservice.component';
 import { CustomerSystemComponent } from './customer-system/customer-system.component';
 import { SocialComponent } from './social/social.component';
+import { WebHostingComponent } from './web-hosting/web-hosting.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SocialComponent } from './social/social.component';
     RegisterComponent,
     MicroserviceComponent,
     CustomerSystemComponent,
-    SocialComponent
+    SocialComponent,
+    WebHostingComponent
   ],
   imports: [
     BrowserModule,
