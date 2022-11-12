@@ -22,6 +22,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { WishListComponent } from './wish-list/wish-list.component';
 import { ReviewComponent } from './review/review.component';
 import { LoginComponent } from './login/login.component';
+import { JavaComponent } from './java/java.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { LoginComponent } from './login/login.component';
     OrdersComponent,
     WishListComponent,
     ReviewComponent,
-    LoginComponent
+    LoginComponent,
+    JavaComponent
   ],
   imports: [
     BrowserModule,
