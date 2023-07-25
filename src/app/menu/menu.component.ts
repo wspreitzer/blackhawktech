@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
-import { AuthenticationService } from '../authentication.service';
+import { JwtAuthenticationService } from '../service/authentication/jwt-authentication.service';
 
 @Component({
   selector: 'app-menu',
@@ -9,11 +9,9 @@ import { AuthenticationService } from '../authentication.service';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-  //isNewCustomer : boolean
 
-  constructor(public authentictionService : AuthenticationService) { }
-  ngOnInit(): void {
-    this.isNewCustomer= 
-  }
 
+  constructor(public jwtAuthenticationService : JwtAuthenticationService) {}
+
+  ngOnInit(): void {}
 }

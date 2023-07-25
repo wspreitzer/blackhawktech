@@ -58,13 +58,13 @@
             </a>
         </li>
         <li>
-            <!-- <a *ngIf="!authenticationService.isUserLoggedIn()" mat-button routerLink="/login" >Login</a> -->
+            <a *ngIf="!jwtAuthenticationService.isUserLoggedIn()" mat-button routerLink="/login" >Login</a> 
         </li>
         <li>
-            <!-- <a *ngIf="authenticationService.isNewUser()" mat-button routerLink="/register">Register</a> -->
+            <a *ngIf="jwtAuthenticationService.isUserLoggedIn()" mat-button routerLink="/logout">Logout</a>
         </li>
         <li>
-            <!-- <a *ngIf="authenticationService.isUserLoggedIn()" mat-button routerLink="/logout">Logout</a> -->
+            <a mat-button routerLink="/register">Register</a>
         </li>
         <li>
             <a href="tel:+1-(224)-876-3549">
@@ -74,7 +74,7 @@
                 <span class="nav-item">+1-(224)-876-3549</span>
             </a>
         </li>
-        <li>
+        <li class="justify-content-end">
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-danger" type="submit">Search</button>

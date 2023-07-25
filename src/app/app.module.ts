@@ -23,6 +23,8 @@ import { WishListComponent } from './wish-list/wish-list.component';
 import { ReviewComponent } from './review/review.component';
 import { LoginComponent } from './login/login.component';
 import { JavaComponent } from './java/java.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { JavaComponent } from './java/java.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
