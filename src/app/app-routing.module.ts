@@ -18,6 +18,7 @@ import { WebDevelopmentComponent } from './web-development/web-development.compo
 import { WebHostingComponent } from './web-hosting/web-hosting.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { WishListComponent } from './wish-list/wish-list.component';
+import { JavaComponent } from './java/java.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent},
@@ -39,7 +40,8 @@ const routes: Routes = [
   { path: 'review', component: ReviewComponent},
   { path: 'review/:id', component: ReviewComponent},
   { path: 'register', component: RegisterComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  { path: 'java', component: JavaComponent}
 ];
 
 @NgModule({

@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": [
@@ -94,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "blackhawktech"
+  "defaultProject": "blackhawktech",
+  "cli": {
+    "analytics": "b84591a0-407e-4edc-91c7-ec3c9be3a2e0"
+  }
 }
