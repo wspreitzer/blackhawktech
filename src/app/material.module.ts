@@ -4,6 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 const MODULES = [
@@ -12,6 +13,7 @@ const MODULES = [
     MatFormFieldModule,
     MatInputModule,
     MatMenuModule,
+    MatSelectModule,
     MatToolbarModule
 ];
 

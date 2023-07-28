@@ -64,7 +64,10 @@
             <a *ngIf="jwtAuthenticationService.isUserLoggedIn()" mat-button routerLink="/logout">Logout</a>
         </li>
         <li>
-            <a mat-button routerLink="/register">Register</a>
+            <a *ngIf="!jwtAuthenticationService.isUserLoggedIn()" mat-button routerLink="/register">Register</a>
+        </li>
+        <li>
+            <a *ngIf="jwtAuthenticationService.isUserLoggedIn()" mat-button routerLink="/register">Profile</a>
         </li>
         <li>
             <a href="tel:+1-(224)-876-3549">
